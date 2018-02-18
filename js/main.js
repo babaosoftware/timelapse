@@ -1,5 +1,6 @@
 'use-strict';
 
+import style from './../css/main.css'
 import TimeLapse from './timelapse.js'
 
 function addTimeLapse()
