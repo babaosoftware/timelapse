@@ -13,11 +13,35 @@
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
 <script src="./js/timelapse.js"></script>
 <script async defer src="https://use.fontawesome.com/4366f10412.js"></script>
+<style>
+    .time-lapse-wrapper
+    {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 </head>
 
 <body>
     <div class="time-lapse-wrapper">
     </div>
+    <script>
+        function addTimeLapse()
+        {
+            ReactDOM.render(
+                <TimeLapse imageSource='./json/timelapse.json'/>,
+                $('.time-lapse-wrapper')[0]);
+        }
+        
+        $(document).ready(function()
+        {
+            addTimeLapse();
+        });
+    </script>
+    
 </body>
 </html>
     
