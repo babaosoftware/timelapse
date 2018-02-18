@@ -168,4 +168,3 @@ export default class TimeLapse extends React.Component
     }
 }
 
-
