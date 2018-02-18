@@ -7,11 +7,11 @@
 <title>Time Lapse Player</title>
 
 <link rel="stylesheet" type='text/css' href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin-ext">
-<link rel="stylesheet" type='text/css' href="./css/timelapse.css">
+<link rel="stylesheet" type='text/css' href="./dist/main.css">
 <script crossorigin src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-<script src="./js/timelapse.js"></script>
+<script src="./dist/main.js"></script>
 <script async defer src="https://use.fontawesome.com/4366f10412.js"></script>
 <style>
     .time-lapse-wrapper
@@ -28,19 +28,6 @@
 <body>
     <div class="time-lapse-wrapper">
     </div>
-    <script>
-        function addTimeLapse()
-        {
-            ReactDOM.render(
-                <TimeLapse imageSource='./json/timelapse.json'/>,
-                $('.time-lapse-wrapper')[0]);
-        }
-        
-        $(document).ready(function()
-        {
-            addTimeLapse();
-        });
-    </script>
     
 </body>
 </html>
