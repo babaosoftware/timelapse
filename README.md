@@ -11,7 +11,7 @@ A reactjs widget to play a sequence of images.
   + speed: time between consecutive images, in ms.
   + root: optional root url to be added in front of each image url.
   + images: array of objects with two members:
-       + url: the url to the image. It can be relative if root is used
-       + speed: optional override for the global speed option
+       + url: the url to the image. It can be relative if root is used.
+       + speed: optional override for the global speed option.
        
 [See accepted options in the attached sample json file.](json/timelapse.json)
