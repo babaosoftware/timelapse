@@ -1,7 +1,7 @@
 # Time-lapse Player
-A reactjs widget to play a sequence of images.
+A reactjs component that plays a sequence of images.
 
-[Click to run the sample page.](http://babaosoftware.com/apps/timelapse/timelapse.html)
+[Run sample page.](http://babaosoftware.com/apps/timelapse/timelapse.html)
 
 ## Options
   + title: used at the top of the widget box.
@@ -14,4 +14,4 @@ A reactjs widget to play a sequence of images.
        + url: the url to the image. It can be relative if root is used.
        + speed: optional override for the global speed option.
        
-[See accepted options in the attached sample json file.](json/timelapse.json)
+[See valid options in the attached sample json file.](json/timelapse.json)
